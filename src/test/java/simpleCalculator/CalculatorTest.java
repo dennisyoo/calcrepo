@@ -24,5 +24,9 @@ public class CalculatorTest {
 		calc.sub(10, 20);
 		assertEquals(-10, calc.getResult());
 	}
-
+	public void testLeft(){
+		Calculator calc = new Calculator();
+		calc.left(5,4);
+		assertEquals(1, calc.getResult());
+	}
 }

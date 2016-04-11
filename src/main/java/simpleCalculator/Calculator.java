@@ -16,4 +16,7 @@ public class Calculator {
 	public int getResult() {
 		return result;
 	}
+	public void left(int x, int y){
+		result=x%y;
+	}
 }
